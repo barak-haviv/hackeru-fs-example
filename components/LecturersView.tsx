@@ -1,15 +1,36 @@
-import { Lecturers } from '../types';
+import Typography from '@mui/material/Typography';
+import { Lecturers, Language } from '../types';
 
-function LecturersView({ lecturers }: { lecturers: Lecturers }) {
+function LecturersView({
+  lecturers,
+  language,
+}: {
+  lecturers: Lecturers;
+  language: Language | null;
+}) {
   return (
-    <div>
-      <h1>LecturersView</h1>
+    <>
+      <Typography
+        variant="h4"
+        component="h2"
+        align="center"
+        color="blue"
+        sx={{ pb: 3 }}
+      >
+        {language ? (
+          <>
+            <span style={{ color: 'green' }}>{language.name}</span> Teachers
+          </>
+        ) : (
+          'All Teachers'
+        )}
+      </Typography>
       <div>
         {lecturers.map((lecturer) => (
-          <div>{lecturer.name}</div>
+          <div key={lecturer.id}>{lecturer.name}</div>
         ))}
       </div>
-    </div>
+    </>
   );
 }
 

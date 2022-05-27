@@ -4,7 +4,7 @@
       "id": "1",
       "name": "Moshe",
       "imageUrl": "/images/moshe.jpeg",
-      "email": "moshe@moshe.com",
+      "email": "moshe@academy.com",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices metus sed molestie commodo. Aliquam sem erat, faucibus sit amet quam sed, mollis finibus ante. Nam pharetra lectus velit, at accumsan lectus vulputate molestie. Cras vitae tortor pellentesque, pretium elit eu, fringilla turpis. In posuere malesuada neque.",
       "languages": [ 1, 3, 6]
     },
@@ -12,7 +12,7 @@
       "id": "2",
       "name": "Avi",
       "imageUrl": "/images/avi.jpeg",
-      "email": "avi@moshe.com",
+      "email": "avi@academy.com",
       "description": "Nunc a quam vitae ligula vulputate lobortis. Donec id diam sit amet felis luctus hendrerit. Nam imperdiet erat vitae dui tristique, at vestibulum magna rhoncus. Nam erat eros, blandit non mauris ac, interdum hendrerit odio.", 
       "languages": [ 3, 7, 9]
     },
@@ -20,7 +20,7 @@
       "id": "3",
       "name": "Gila",
       "imageUrl": "/images/gila.jpeg",
-      "email": "gila@moshe.com",
+      "email": "gila@academy.com",
       "description": "Nulla sollicitudin diam at metus dictum tristique. Etiam molestie tristique magna, non malesuada ipsum condimentum quis. Praesent vitae massa tempus, efficitur sem eu, lacinia lectus. Vivamus vestibulum vehicula venenatis. Donec tristique tempor ligula, quis finibus ex convallis vitae.",
       "languages": [ 2, 4, 7]
     },
@@ -28,7 +28,7 @@
       "id": "4",
       "name": "Christina",
       "imageUrl": "/images/christina.jpeg",
-      "email": "gila@moshe.com",
+      "email": "christina@academy.com",
       "description": "Nulla sollicitudin diam at metus dictum tristique. Etiam molestie tristique magna, non malesuada ipsum condimentum quis. Praesent vitae massa tempus, efficitur sem eu, lacinia lectus. Vivamus vestibulum vehicula venenatis. Donec tristique tempor ligula, quis finibus ex convallis vitae.",
       "languages": [ 1, 2, 4, 8]
     },
@@ -36,7 +36,7 @@
       "id": "5",
       "name": "Stefani",
       "imageUrl": "/images/stefani.jpeg",
-      "email": "gila@moshe.com",
+      "email": "stafani@academy.com",
       "description": "Nulla sollicitudin diam at metus dictum tristique. Etiam molestie tristique magna, non malesuada ipsum condimentum quis. Praesent vitae massa tempus, efficitur sem eu, lacinia lectus. Vivamus vestibulum vehicula venenatis. Donec tristique tempor ligula, quis finibus ex convallis vitae.",
       "languages": [ 1, 2, 4]
     },
@@ -44,7 +44,7 @@
       "id": "6",
       "name": "Eden",
       "imageUrl": "/images/eden.jpeg",
-      "email": "gila@moshe.com",
+      "email": "eden@academy.com",
       "description": "Nulla sollicitudin diam at metus dictum tristique. Etiam molestie tristique magna, non malesuada ipsum condimentum quis. Praesent vitae massa tempus, efficitur sem eu, lacinia lectus. Vivamus vestibulum vehicula venenatis. Donec tristique tempor ligula, quis finibus ex convallis vitae.",
       "languages": [ 3, 5, 6, 9]
     }
