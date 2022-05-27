@@ -36,7 +36,7 @@ const Home: NextPage = () => {
   }
 
   return (
-    <Container maxWidth="lg">
+    <Container maxWidth="xl" sx={{ justifyContent: 'center' }}>
       <LanguageSelect data={data} onLanguageChosen={onLanguageChosen} />
       <LecturersView lecturers={lecturers} language={language} />
     </Container>

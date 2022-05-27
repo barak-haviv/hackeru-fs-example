@@ -1,4 +1,5 @@
 import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 import { Data, Language } from '../types';
 import BasicSelect from './BasicSelect';
 
@@ -10,7 +11,7 @@ function LanguageSelect({
   onLanguageChosen: Function;
 }) {
   return (
-    <>
+    <Box sx={{mt: 4, mb: 4}}>
       <Typography
         variant="h4"
         component="h2"
@@ -25,7 +26,7 @@ function LanguageSelect({
         label="Choose Language"
         onSelect={onLanguageChosen}
       />
-    </>
+    </Box>
   );
 }
 

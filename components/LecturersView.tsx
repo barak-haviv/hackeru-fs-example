@@ -1,5 +1,7 @@
 import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 import { Lecturers, Language } from '../types';
+import Lecturer from './Lecturer';
 
 function LecturersView({
   lecturers,
@@ -25,11 +27,19 @@ function LecturersView({
           'All Teachers'
         )}
       </Typography>
-      <div>
+      <Box
+        sx={{
+          display: 'flex',
+          justifyContent: 'space-around',
+          flexWrap: 'wrap',
+        }}
+      >
         {lecturers.map((lecturer) => (
-          <div key={lecturer.id}>{lecturer.name}</div>
+          <Box key={lecturer.id} sx={{ p: 4 }}>
+            <Lecturer lecturer={lecturer} />
+          </Box>
         ))}
-      </div>
+      </Box>
     </>
   );
 }
