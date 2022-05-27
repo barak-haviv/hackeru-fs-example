@@ -11,12 +11,12 @@ function LanguageSelect({
   onLanguageChosen: Function;
 }) {
   return (
-    <Box sx={{mt: 4, mb: 4}}>
+    <Box sx={{ mt: 4, mb: 4 }}>
       <Typography
         variant="h4"
         component="h2"
         align="center"
-        color="blue"
+        color="primary"
         sx={{ pb: 3 }}
       >
         Meet our teachers

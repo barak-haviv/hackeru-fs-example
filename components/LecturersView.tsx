@@ -16,12 +16,15 @@ function LecturersView({
         variant="h4"
         component="h2"
         align="center"
-        color="blue"
+        color="primary.main"
         sx={{ pb: 3 }}
       >
         {language ? (
           <>
-            <span style={{ color: 'green' }}>{language.name}</span> Teachers
+            <Box component="span" sx={{ color: 'secondary.main' }}>
+              {language.name}
+            </Box>{' '}
+            Teachers
           </>
         ) : (
           'All Teachers'
