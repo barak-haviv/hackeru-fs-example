@@ -4,6 +4,7 @@ import Container from '@mui/material/Container';
 import LecturersView from '../components/LecturersView';
 import LanguageSelect from '../components/LanguageSelect';
 import { Data, Lecturers, Language } from '../types';
+import Header from '../components/Header'
 
 const Home: NextPage = () => {
   const [data, setData] = useState<Data | null>(null);
@@ -36,10 +37,13 @@ const Home: NextPage = () => {
   }
 
   return (
+    <>
+    <Header />
     <Container maxWidth="xl" sx={{ justifyContent: 'center' }}>
       <LanguageSelect data={data} onLanguageChosen={onLanguageChosen} />
       <LecturersView lecturers={lecturers} language={language} />
     </Container>
+    </>
   );
 };
 
